@@ -1,0 +1,335 @@
+
+/* CSS Document */
+/* CSS Document */
+*,::before,::after{margin:0; padding:0; -webkit-box-sizing:border-box; -webkit-tap-highlight:transparent;/*清除点击默认的高亮效果*/}
+
+a, article, aside, audio, b, blockquote, body, canvas, caption, dd,  details,div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, label, legend, li, menu, nav, object, ol, output, p,s, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+ { margin: 0; padding: 0; border: 0; }
+ 
+ol, ul,li{ list-style: none;}
+table { border-collapse: collapse;/*表格的边线重叠*/ border-spacing: 0; }
+input,textarea{border:0 none; resize:none;/*调整尺寸*/  /*outline:none;*//*清除表单默认的蓝色边框效果*/ -webkit-appearance:none;/* 针对表单的默认的样式进行清除  比如立体效果*/}
+:focus{outline:none;}
+img{ display:block; -webkit-touch-callout:none;/*当你触摸并按住触摸目标时候，禁止或显示系统默认菜单 */}
+
+a,a:link,a:visited{ text-decoration:none; color:#343434; -webkit-touch-callout:none;}
+a:hover{ color:#ff6699;
+  }
+.clearfix:after{content:""; display:block; height:0; clear:both; visibility:hidden;}
+
+.fl{float:left;}
+.fr{float:right;}
+
+html{-webkit-text-size-adjust: none;/*不调整（拉伸）字大小*/  font-size:100px;/*表示100px=1rem;       625%    62.5%*/}
+
+body{font-family: "microsoft yahei", "\534E\6587\7EC6\9ED1", Verdana, Arial, Helvetica, sans-serif; font-size:24px; background:rgba(); -webkit-user-select:none; /*禁止选中内容*/}  
+
+                 /*微软雅黑      华文细黑                                         最后一个字体：ios系统默认 */ 
+             
+.m_layout{ max-width:7.5rem; min-width:3.2rem; width:100%;background:rgba(255,255,255,1); margin:0 auto;}        
+  
+body {
+  height: 17rem;
+}
+
+/*顶部开始*/       
+
+.ding {
+  background: #f1f1f1;
+  width: 100%;
+  height: 0.6rem;
+}
+
+.ding  p {
+  color: #333;
+  text-align: center;
+  line-height: 0.6rem;
+  font-size: 0.26rem;
+}
+
+/*我的开始*/
+
+.wode {
+  width: 100%;
+  height: 1.87rem;
+  background: url(../images/00018.jpg);
+  margin-top: 0.2rem;
+}
+
+.wode .wode_a {
+  float: left;
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+.wode .wode_a a img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.wode .wode_b {
+  float: left;
+  margin-top: 0.55rem;
+  margin-left: 0.2rem;
+}
+
+.wode .wode_b span {
+  font-size: 0.26rem;
+  color: white;
+}
+
+.wode .wode_b p {
+  font-size: 0.16rem;
+  color: white;
+}
+
+.wode .wode_c {
+  float: right;
+  margin-top: 0.7rem;
+  margin-right: 0.4rem;
+}
+
+.wode .wode_c a img {
+  width: 0.96rem;
+  height: 0.36rem;
+}
+
+/*收藏开始*/
+
+.shou {
+  width: 100%;
+}
+
+.shou .shou_a {
+  width: 45%;
+  height: 1rem;
+  float: left;
+  margin-left: 0.35rem;
+  margin-top: 0.3rem;
+  border-right: 1px solid #ccc;
+}
+
+.shou .shou_a p {
+  text-align: center;
+  margin-top: 0.2rem;
+  color: #333;
+  font-size: 0.22rem;
+}
+
+.shou .shou_b {
+  width: 45%;
+  height: 1rem;
+  float: left;
+  margin-top: 0.3rem;
+}
+
+.shou .shou_b p {
+  text-align: center;
+  margin-top: 0.2rem;
+  color: #333;
+  font-size: 0.22rem;
+}
+
+.kong {
+  background: #f1f1f1;
+  width: 100%;
+  height: 0.21rem;
+  margin-top: 0.2rem;
+}
+
+/*订单开始*/
+
+.dingdan {
+  width: 100%;
+  margin-top: 0.3rem;
+}
+
+.dingdan .dingdan_a {
+  float: left;
+  margin-left: 0.3rem;
+}
+
+.dingdan .dingdan_a a img {
+  width: 0.46rem;
+  height: 0.46rem;
+}
+
+.dingdan .dingdan_b {
+  float: left;
+  margin-left: 0.2rem;
+  margin-top: 0.05rem;
+}
+
+.dingdan .dingdan_b a p {
+  font-size: 0.26rem;
+  color: #333;
+}
+
+
+.dingdan .dingdan_c {
+  float: right;
+  margin-right: 0.3rem;
+  margin-top: 0.05rem;
+}
+
+.dingdan .dingdan_c a img {
+  width: 0.19rem;
+  height: 0.3rem;
+}
+
+
+.dingdan .dingdan_d {
+  float: right;
+  margin-right: 0.2rem;
+  margin-top: 0.05rem;
+}
+
+.dingdan .dingdan_d a p {
+  font-size: 0.22rem;
+  color: #999;
+}
+
+
+.kong_a {
+  background: #ccc;
+  width: 100%;
+  height: 0.01rem;
+  margin-top: 0.3rem;
+}
+
+.shouhou {
+  width: 100%;
+}
+
+.shouhou ul {
+  width: 100%;
+  height: 100%;
+}
+
+.shouhou ul li {
+  width: 25%;
+  height: 1.04rem;
+  float: left;
+  text-align: center;
+  margin: 0.3rem 0 ;
+}
+
+.shouhou ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.shouhou ul li a img {
+  width: 0.49rem;
+  height: 0.44rem;
+  margin: 0 auto;
+}
+
+.shouhou ul li a p {
+  color: #999;
+  font-size: 0.22rem;
+  margin-top: 0.1rem;
+}
+
+
+.kong_b {
+  width: 100%;
+  height: 0.21rem;
+  background: #f1f1f1;
+}
+
+/*分类开始*/
+.fenlei {
+  width: 100%;
+  margin-top: 0.2rem;
+  height: 0.7rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.fenlei .fenlei_a {
+  float: left;
+  margin-left: 0.2rem;
+}
+
+.fenlei .fenlei_a a img {
+  width: 0.46rem;
+  height: 0.46rem;
+}
+
+.fenlei .fenlei_b {
+  float: left;
+  margin-left: 0.2rem;
+}
+
+.fenlei .fenlei_b a {
+  color: #333;
+  font-size: 0.22rem;
+}
+
+.fenlei .fenlei_c {
+  float: right;
+  margin-right: 0.2rem;
+}
+
+.fenlei .fenlei_c a img {
+  width: 0.19rem;
+  height: 0.3rem;
+}
+
+.kong_c {
+  width: 100%;
+  height: 0.21rem;
+  background: #f1f1f1;
+}
+
+
+.fenlei_d {
+  width: 100%;
+  margin-top: 0.2rem;
+  height: 0.7rem;
+}
+
+.fenlei_d .fenlei_a {
+  float: left;
+  margin-left: 0.2rem;
+}
+
+.fenlei_d .fenlei_a a img {
+  width: 0.46rem;
+  height: 0.46rem;
+}
+
+.fenlei_d .fenlei_b {
+  float: left;
+  margin-left: 0.2rem;
+}
+
+.fenlei_d .fenlei_b a {
+  color: #333;
+  font-size: 0.22rem;
+}
+
+.fenlei_d .fenlei_c {
+  float: right;
+  margin-right: 0.2rem;
+}
+
+.fenlei_d .fenlei_c a img {
+  width: 0.19rem;
+  height: 0.3rem;
+}
+
+/*底部*/
+
+footer{ width:100%;max-width:7.5rem; min-width:3.2rem; height:0.98rem; background: rgba(255,255,255,1); border-top:1px solid rgba(102,102,102,0.2);  margin:0 auto; position:fixed;/*固定定位*/ bottom:0; left:0; right:0; z-index:100;}
+footer ul{ width:100%; height: 100%;  /*display:flex;*//*伸缩盒*/}
+footer ul li{/*flex:1;*/ width:20%; float:left; padding-top:0.12rem;}
+footer ul li:nth-child(1) a{ width:0.66rem; height:0.86rem; display:block; background:url(../images/白色主页.jpg) no-repeat top center; background-size:contain; margin:0 auto;}
+footer ul li:nth-child(2) a{ width:0.66rem; height:0.86rem; display:block; background:url(../images/19.jpg) no-repeat top center; background-size:contain; margin:0 auto;}
+footer ul li:nth-child(3) a{ width:0.66rem; height:0.86rem; display:block; background:url(../images/20.jpg) no-repeat top center; background-size:contain; margin:0 auto;}
+footer ul li:nth-child(4) a{ width:0.66rem; height:0.86rem; display:block; background:url(../images/21.jpg) no-repeat top center; background-size:contain; margin:0 auto;}
+footer ul li:nth-child(5) a{ width:0.66rem; height:0.86rem; display:block; background:url(../images/橙色我的.jpg) no-repeat top center; background-size:contain; margin:0 auto;}
+
+footer ul li.tab_on:nth-child(5) a{ width:0.66rem; height:0.86rem; display:block; background:url(../images/橙色我的.jpg) no-repeat top center; background-size:contain; margin:0 auto;}
+

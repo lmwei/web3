@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<title>列表页</title>
+	<link rel="stylesheet" type="text/css" href="../css/liebiaoye.css">
+    <link rel="shortcut icon" type="text/css" href="bei.ico">
+	<script src="../js/adaptive.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {  
+    $(".tabs li").click(function() {  
+       $(".tabs li a").removeClass("current");
+       $(this).children("a").addClass("current");
+       
+       $(".category_right").hide(0);
+       $(".category_right:eq(" + $(this).index() + ")").show(0);
+    });  
+  
+});  
+</script>
+<body>
+
+
+	<header class="a_header">
+		<div class="a_header_left">
+			<img src="../images/logo.jpg">
+		</div>
+		<div class="b_header">
+			<form action="" method="post">
+				<input type="text" placeholder="搜索">
+				<div class="c_header iconfont">&#xe650;</div>
+			</form>
+		</div>
+		<div class="d_header iconfont">&#xe629;</div>
+		<div class="e_header iconfont">&#xe652;</div>
+	</header>
+
+
+	<main>
+	<div class="main_wrap m_layout">
+		<div class="san">
+    	    <div class="san_a">
+    		    <div class="san_b">
+    		        <a href="../index.html">
+    			        <img src="../images/fanhui.jpg">
+    		        </a>
+    			    <p>产品分类</p>
+    		    </div>
+    	    </div>
+        </div>
+
+        <div class="fenlei">
+        	<div class="fenlei_a">
+        		<div class="fenlei_b">
+        			<a href="">
+        			    <p>为您推荐</p>
+        			</a>
+        		</div>
+        		<div class="fenlei_c">
+        			<a href="">
+        			    <p>强化地板</p>
+        			</a>
+        		</div>
+        		<div class="fenlei_c">
+        			<a href="">
+        			    <p>实木地板</p>
+        			</a>
+        		</div>
+        		<div class="fenlei_c">
+        			<a href="">
+        			    <p>多层地板</p>
+        			</a>
+        		</div>
+        		<div class="fenlei_c">
+        			<a href="">
+        			    <p>进口地板</p>
+        			</a>
+        		</div>
+        		<div class="fenlei_c">
+        			<a href="">
+        			    <p>防腐地板</p>
+        			</a>
+        		</div>
+        		<div class="fenlei_c">
+        			<a href="">
+        			    <p>防火地板</p>
+        			</a>
+        		</div>
+        		<div class="fenlei_c">
+        			<a href="">
+        			    <p>PVC地板</p>
+        			</a>
+        		</div>
+        		<div class="fenlei_c">
+        			<a href="">
+        			    <p>地板辅料</p>
+        			</a>
+        		</div>
+        		<div class="fenlei_c">
+        			<a href="">
+        			    <p>家博会</p>
+        			</a>
+        		</div>
+        	</div>
+        	<div class="fenlei_d">
+        		<a href="xiangqing.html">
+        			<img src="../images/详情bannan.jpg">
+        		</a>
+        		<p>为您推荐</p>
+        	</div>
+        	<div class="tu">
+        		<a href="xiangqing.html">
+        			<img src="../images/001.jpg">
+        			<p>非洲进口材料家用环<br>保哑光平面 BY-01鎏<br>金岁月</p>
+        		</a>
+        	</div>
+        	<div class="tu">
+        		<a href="xiangqing.html">
+        			<img src="../images/002.jpg">
+        			<p>贝尔地板 实木地板橡<br>木森林传说系列 BX-<br>06蔚蓝海岸</p>
+        		</a>
+        	</div>
+        	<div class="tu">
+        		<a href="xiangqing.html">
+        			<img src="../images/003.jpg">
+        			<p>番龙眼实木地板东南<br>亚进口原木家用环保<br>森林传说系列 BP-01</p>
+        		</a>
+        	</div>
+        	<div class="tu">
+        		<a href="xiangqing.html">
+        			<img src="../images/004.jpg">
+        			<p>地热实木地板 番龙眼<br>纯实木家用环保 锁扣<br>番龙眼(BSP-02)</p>
+        		</a>
+        	</div>
+        	<div class="tu">
+        		<a href="xiangqing.html">
+        			<img src="../images/005.jpg">
+        			<p>非洲进口材料家用环<br>保哑光平面 BY-01鎏<br>金岁月</p>
+        		</a>
+        	</div>
+        	<div class="tu">
+        		<a href="xiangqing.html">
+        			<img src="../images/006.jpg">
+        			<p>非洲进口材料家用环<br>保哑光平面 BY-01鎏<br>金岁月</p>
+        		</a>
+        	</div>
+        	<div class="clearfix"></div>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+</main>
+
+<footer>
+	<ul>
+    	<li class="tab_on">
+        	<a href="../index.html">
+            </a>
+        </li>
+        <li>
+        	<a href="">
+            </a>
+        </li>
+        <li>
+        	<a href="">
+            </a>
+        </li>
+        <li>
+        	<a href="gouwuche.html">
+            </a>
+        </li>
+        <li>
+        	<a href="wode.html">
+            </a>
+        </li>
+    </ul>
+
+</footer>
+
+</body>
+</html>
